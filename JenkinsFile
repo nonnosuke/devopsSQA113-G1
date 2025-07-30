@@ -18,7 +18,7 @@ pipeline{
 
          stage('Testing'){
             steps{
-            echo 'This is testing'
+            sh 'firebase deploy -P testing --token "$FIREBASE_DEPLOY_TOKEN"'
             }
         }
 
