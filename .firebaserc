@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "testingdevopssqa113-g1",
+    "staging": "stagingdevopssqa113-g1",
+    "production": "productiondevopssqa113-g1"
+  }
+}
